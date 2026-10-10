@@ -4,6 +4,8 @@ import { resolve } from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // GitHub Pages 部署在仓库子路径下：https://<user>.github.io/campus-management/
+  base: '/campus-management/',
   plugins: [vue()],
   resolve: {
     alias: {

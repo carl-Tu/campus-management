@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import type { RouteRecordRaw } from 'vue-router'
 
 /* 路由配置 */
@@ -62,7 +62,8 @@ const routes: RouteRecordRaw[] = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  // Hash 模式：适配 GitHub Pages 静态托管（刷新子页面不会 404）
+  history: createWebHashHistory(),
   routes,
 })
 
