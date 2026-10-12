@@ -1,5 +1,9 @@
 # Vue 3 + TypeScript + Vite
 
+## 文档
+
+- [功能需求分析与用例图](./docs/功能需求分析与用例图.md)
+
 ## 在线访问
 
 https://carl-tu.github.io/campus-management/
